@@ -19,7 +19,7 @@ let score:i32 = daten.iter().map(|x|{
     let e2 =x[1];
 
     // ist e1 in e2 enthalten
-    if (e1.0 >= e2.0 && e1.1 <= e2.1) ||{
+    if (e1.0 >= e2.0 && e1.1 <= e2.1) {
         return 1;
     }
     else if e1.0 <= e2.0 && e1.1 >= e2.1  {
