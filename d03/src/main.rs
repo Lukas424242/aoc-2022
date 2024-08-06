@@ -38,6 +38,7 @@ let score2:i32 = daten.iter().map(|x|{
     let e1 = x[0];
     let e2 =x[1];
 
+    // das nochmal angucken, ich war zu lost.....
     if e1.0 <= e2.1 && e2.0 <= e1.1 {
         return 1;
     }
@@ -46,17 +47,5 @@ let score2:i32 = daten.iter().map(|x|{
 
 }).sum();
 println!("{}", score2);
-
-let e1 = (2,8);
-let e2 =(3,7);
-
-if e1.0 >= e2.0 || e1.1 <= e2.1  {
-
-    println!("Bumm");
-}
-
-
-
-
 
 }
